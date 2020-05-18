@@ -16,7 +16,6 @@ int main()
   scanf("%f",&Frequency);
    printf("Enter time");
   scanf("%d",&time);
-  printf("enter values");
   //Invoke fault functions
   UnderVoltageFault = UnderVoltage(Voltage,time);
   
